@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 15 09:11:34 MYT 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0197-7124-4fb2-00000bcfbf20 
+on database directory /Users/jingweiye/Undergraduate/Scala/Project_21047451/myDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/jingweiye/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_401-b10
+user.dir=/Users/jingweiye/Undergraduate/Scala/Project_21047451
+os.name=Mac OS X
+os.arch=aarch64
+os.version=15.4.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

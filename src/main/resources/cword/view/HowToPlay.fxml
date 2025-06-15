@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cword.view.HowToPlayController">
+   <children>
+      <ImageView fitHeight="295.0" fitWidth="739.0">
+         <image>
+            <Image url="@../../images/desert.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="46.0" prefWidth="81.0" stylesheets="@GameDeco.css" text="Back" />
+      <TextArea layoutX="112.0" layoutY="14.0" prefHeight="268.0" prefWidth="614.0" stylesheets="@GameDeco.css" text="How to Play?&#10;1.  When game started, there will be words randomly spawn out from right to left.&#10;2.  Type the spelling of the word. The word will be dissappear when player typed correctly.&#10;3. The record will be saved in the &quot;Results&quot; when you clicked the &quot;Results&quot; button from the homepage.&#10;&#10;Guidelines:&#10;1. There are two levels in NAMANANA.  &#10;2. User can play second level only when the first level is played. " />
+   </children>
+</AnchorPane>

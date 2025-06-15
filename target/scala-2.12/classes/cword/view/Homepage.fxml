@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cword.view.HomepageController">
+   <children>
+      <ImageView fx:id="background" fitHeight="295.0" fitWidth="739.0">
+         <image>
+            <Image url="@../../images/desert.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="title" fitHeight="126.0" fitWidth="431.0" layoutX="154.0" layoutY="-3.0">
+         <image>
+            <Image url="@../../images/namanana.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dinosaur" fitHeight="200.0" fitWidth="171.0" layoutX="269.0" layoutY="72.0">
+         <image>
+            <Image url="@../../images/dinosaur.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="528.0" layoutY="99.0" prefHeight="173.0" prefWidth="186.0" spacing="10.0">
+         <children>
+            <Button fx:id="startGameButton" mnemonicParsing="false" onAction="#handleStartGame" prefHeight="32.0" prefWidth="140.0" styleClass="button" stylesheets="@GameDeco.css" text="Start Game">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="showScoresButton" mnemonicParsing="false" onAction="#handleShowScores" prefHeight="32.0" prefWidth="140.0" styleClass="button" stylesheets="@GameDeco.css" text="Results">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="howToPlayButton" mnemonicParsing="false" onAction="#handleHowToPlay" prefHeight="32.0" prefWidth="140.0" styleClass="button" stylesheets="@GameDeco.css" text="How to Play">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="musicButton" layoutX="22.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleMusicButton" prefHeight="46.0" prefWidth="84.0" styleClass="label" stylesheets="@GameDeco.css" text="Music">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

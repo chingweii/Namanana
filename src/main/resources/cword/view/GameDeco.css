@@ -1,0 +1,120 @@
+.button {
+    -fx-background-radius: 50px;
+    -fx-background-color: #91785d;
+    -fx-padding: 5px 10px;
+    -fx-border-width: 4px;
+    -fx-border-color: #685634;
+    -fx-border-radius: 50px;
+    -fx-font-size: 20px;
+    -fx-text-fill: #faff7f;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.button:hover{
+    -fx-translate-x: - 1.2;
+    -fx-translate-y: 1.2;
+    -fx-translate-z: 1.2;
+    -fx-text-fill: #e8985e;
+}
+
+.table-view {
+    -fx-border-color: #685634;
+    -fx-border-width: 5px;
+    -fx-background-color: #f5f5f5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #91785d;
+    -fx-text-fill: #fbb13c;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 16px;
+    -fx-text-fill: faff7f;
+    -fx-border-width: 0px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #685634;
+    -fx-border-width: 1px;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #fbb13c;
+    -fx-text-fill: #ffffff;
+}
+
+.table-view .scroll-bar .thumb {
+    -fx-background-color: #91785d; /* Color of the scroll bar thumb */
+}
+
+.table-view .scroll-bar .track {
+    -fx-background-color: #685634; /* Color of the scroll bar track */
+}
+
+.table-view .scroll-bar {
+    -fx-background-color: transparent; /* Background color of the scroll bar */
+    -fx-padding: 0px;
+}
+
+.text-area .content {
+    -fx-background-color: #91785d; /* Background color inside the text area */
+}
+
+.label {
+    -fx-background-radius: 20px;
+    -fx-background-color: #91785d;
+    -fx-padding: 5px 10px;
+    -fx-border-width: 4px;
+    -fx-border-color: #685634;
+    -fx-border-radius: 20px;
+    -fx-font-size: 20px;
+    -fx-text-fill: #faff7f;
+    -fx-text-alignment: center;
+}
+
+.text-area {
+    -fx-background-color: #91785d;
+    -fx-border-width: 4px;
+    -fx-border-color: #685634;
+    -fx-font-size: 16px;
+    -fx-text-fill: #faff7f;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.text-area .content {
+    -fx-background-color: #91785d;
+}
+
+.text-area .scroll-bar .thumb {
+    -fx-background-color: #91785d; /* Color of the scroll bar thumb */
+}
+
+.text-area .scroll-bar .track {
+    -fx-background-color: #685634; /* Color of the scroll bar track */
+}
+
+.text-area .scroll-bar {
+    -fx-background-color: transparent; /* Background color of the scroll bar */
+    -fx-padding: 0px;
+}
+
+.end-game-window-label {
+    -fx-background-radius: 20px;
+    -fx-background-color: #91785d;
+    -fx-padding: 10px 10px;
+    -fx-border-width: 4px;
+    -fx-border-color: #685634;
+    -fx-border-radius: 20px;
+}
+
+.show-result-label {
+    -fx-background-radius: 20px;
+    -fx-background-color: #91785d;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 20px;
+    -fx-text-fill: #faff7f;
+    -fx-text-alignment: center;
+}
